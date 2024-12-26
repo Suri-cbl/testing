@@ -9,6 +9,7 @@ import React from "react";
 import { getItem } from "./src/utils/storage";
 import { useTranslation } from "react-i18next";
 const Stack = createStackNavigator();
+//changes 
 export default function App() {
   const { i18n } = useTranslation();
 
